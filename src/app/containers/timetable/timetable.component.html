@@ -1,0 +1,221 @@
+<!-- quick search -->
+<form id="quick-search" class="quick-search">
+  <fieldset>
+    <legend>Quick Search:</legend>
+
+    <input type="text" placeholder="Search by name" id="docname" name="docname" class="ui-autocomplete-input"
+           autocomplete="off">
+
+    <select>
+      <option value="0">Speciality</option>
+      <option value="1">Ophthomologist</option>
+      <option value="2">Dermatologist</option>
+      <option value="3">Neorologist</option>
+      <option value="4">Surgeon</option>
+    </select>
+
+    <select>
+      <option value="0">Locations</option>
+      <option value="1">Primary Health Care</option>
+      <option value="2">Gynaecological Clinic</option>
+      <option value="3">Diagnosis With Precise</option>
+      <option value="4">Cardiac Clinic</option>
+      <option value="5">General Surgery</option>
+    </select>
+
+    <button type="submit">Search</button>
+    <div class="switcher">
+      <button id="quick-search-switcher" type="button">Find a doctor</button>
+    </div>
+  </fieldset>
+</form>
+<!--/ quick search -->
+
+<!-- page title -->
+<section class="page-title">
+  <div class="grid-row clearfix">
+    <h1>Timetable</h1>
+
+    <nav class="bread-crumbs">
+      <a href="index.html">Home</a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;
+      <a href="timetable-week.html">Timetable</a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;
+      <a href="#">List View</a>
+    </nav>
+  </div>
+</section>
+<!--/ page title -->
+
+<!-- page content -->
+<main class="page-content">
+  <div class="grid-row">
+    <!-- timetable -->
+    <section class="timetable">
+      <div class="widget-title">Timetable</div>
+
+      <select class="filter">
+        <option value="">All Departments</option>
+        <option value="">Pediatric Clinic</option>
+        <option value="">Gynaecological Clinic</option>
+        <option value="">Laryngological Clinic</option>
+        <option value="">Dental Clinic</option>
+      </select>
+
+      <header>
+        <div class="year">2014</div>
+        <div class="month">October</div>
+        <div class="day">
+          <input type="text" value="10/10/13">
+          <a href="#" class="prev fa fa-angle-left"></a>
+          <a href="#" class="next fa fa-angle-right"></a>
+          <a href="#" class="cal fa fa-calendar"></a>
+        </div>
+
+        <div class="switcher">
+          <a href="timetable-month.html"><i class="fa fa-calendar"></i></a>
+          <a href="timetable-week.html"><i class="fa fa-calendar-o"></i></a>
+          <a href="timetable-list.html" class="active"><i class="fa fa-list"></i></a>
+        </div>
+      </header>
+
+      <table class="list-view">
+        <tr>
+          <th>EVENT START</th>
+          <th>EVENT END</th>
+          <th>TITLE</th>
+        </tr>
+
+        <tr>
+          <td>
+            <i class="fa fa-clock-o"></i>03:00 PM<br>10/10/2014
+          </td>
+          <td>
+            <i class="fa fa-clock-o"></i>05:00 PM<br>10/10/2014
+          </td>
+          <td class="event-container">
+            <div class="event">
+              <div class="title"> Pellentesque erat lorem, mattis</div>
+              <p>Proin quis molestie mauris. Etiam nec orci mauris. Aenean cursus tellus nisi, in
+                fermentum risus venenatis vel. Vivamus at metus placerat diam accumsan pulvinar. Donec
+                at condimentum tortor. Maecenas tincidunt consectetur vulputate. In rhoncus metus a erat
+                gravida dapibus at non lorem. Donec nec vulputate elit. Cras tempus ipsum vel tortor
+                eleifend commodo. Cras condimentum risus at metus dictum viverra.</p>
+              <div class="popup">
+                <p>•&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a malesuada
+                  mi. Sed sollicitudin at arcu eget interdum. Class aptent taciti sociosqu ad litora
+                  torquent per conubia nostra, per inceptos himenaeos. Sed blandit venenatis mi, vel
+                  gravida leo facilisis eu.<br><br>•&nbsp; Etiam ipsum dui, porta euismod pretium non,
+                  vestibulum eget felis. In non ligula nisl. Donec vehicula orci id commodo pretium.
+                  Interdum et malesuada fames ac ante ipsum primis in faucibus. Interdum et malesuada
+                  fames ac ante ipsum primis in faucibus.</p>
+                <a href="#"><span></span></a>
+              </div>
+              <a href="#"><span></span></a>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <i class="fa fa-clock-o"></i>04:00 PM<br>10/10/2014
+          </td>
+          <td>
+            <i class="fa fa-clock-o"></i>05:00 PM<br>10/10/2014
+          </td>
+          <td class="event-container">
+            <div class="event">
+              <div class="title">Aenean semper sagittis facilisis.</div>
+              <p> Mauris in rhoncus nunc, nec scelerisque orci. Curabitur in egestas dolor, a faucibus
+                dui. Nunc sollicitudin pellentesque nulla, a condimentum mi ultricies ac. Pellentesque
+                ullamcorper justo quis est cursus blandit. Sed libero neque, condimentum sed sagittis
+                quis, molestie et elit. Integer nec felis ac orci tempor sodales at eget purus. Nunc
+                lobortis urna sit amet nisi sollicitudin venenatis. Nam congue arcu.</p>
+              <div class="popup">
+                <p>•&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a malesuada
+                  mi. Sed sollicitudin at arcu eget interdum. Class aptent taciti sociosqu ad litora
+                  torquent per conubia nostra, per inceptos himenaeos. Sed blandit venenatis mi, vel
+                  gravida leo facilisis eu.<br><br>•&nbsp; Etiam ipsum dui, porta euismod pretium non,
+                  vestibulum eget felis. In non ligula nisl. Donec vehicula orci id commodo pretium.
+                  Interdum et malesuada fames ac ante ipsum primis in faucibus. Interdum et malesuada
+                  fames ac ante ipsum primis in faucibus.</p>
+                <a href="#"><span></span></a>
+              </div>
+              <a href="#"><span></span></a>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <i class="fa fa-clock-o"></i>05:00 PM<br>10/10/2014
+          </td>
+          <td>
+            <i class="fa fa-clock-o"></i>06:00 PM<br>10/10/2014
+          </td>
+          <td class="event-container">
+            <div class="event">
+              <div class="title">Vivamus dictum pellentesque sollicitudin</div>
+              <p>Donec urna lectus, blandit vitae lorem quis, tincidunt feugiat lacus. Aliquam at erat
+                porta, sagittis arcu quis, lacinia ligula. Nullam vel leo venenatis purus pulvinar
+                accumsan et sed neque. Proin eget libero in eros feugiat semper sed in dolor. Donec
+                imperdiet non neque ut suscipit. Ut varius nulla nec consectetur.</p>
+              <div class="popup">
+                <p>•&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a malesuada
+                  mi. Sed sollicitudin at arcu eget interdum. Class aptent taciti sociosqu ad litora
+                  torquent per conubia nostra, per inceptos himenaeos. Sed blandit venenatis mi, vel
+                  gravida leo facilisis eu.<br><br>•&nbsp; Etiam ipsum dui, porta euismod pretium non,
+                  vestibulum eget felis. In non ligula nisl. Donec vehicula orci id commodo pretium.
+                  Interdum et malesuada fames ac ante ipsum primis in faucibus. Interdum et malesuada
+                  fames ac ante ipsum primis in faucibus.</p>
+                <a href="#"><span></span></a>
+              </div>
+              <a href="#"><span></span></a>
+            </div>
+          </td>
+        </tr>
+      </table>
+
+      <div class="mobile-view">
+        <dl>
+          <dt><span>Monday</span></dt>
+          <dd>
+            <ul>
+              <li><i class="fa fa-clock-o"></i><span>06.00 - 07.00</span>Pain Management, John Franklin
+              </li>
+              <li><i class="fa fa-clock-o"></i><span>07.00 - 08.00</span>Radiation Oncology, John Franklin
+              </li>
+              <li><i class="fa fa-clock-o"></i><span>10.00 - 11.00</span>Infectious Diseases, John
+                Franklin
+              </li>
+              <li><i class="fa fa-clock-o"></i><span>15.00 - 18.00</span>Emergency Department, John
+                Franklin
+              </li>
+              <li><i class="fa fa-clock-o"></i><span>19.00 - 20.00</span>Emergency Department, John
+                Franklin
+              </li>
+            </ul>
+          </dd>
+          <dt><span>Tuesday</span></dt>
+          <dd>
+            <ul>
+              <li><i class="fa fa-clock-o"></i><span>07.00 - 08.00</span>Infectious Diseases, John
+                Franklin
+              </li>
+              <li><i class="fa fa-clock-o"></i><span>09.00 - 10.00</span>Pain Management, John Franklin
+              </li>
+              <li><i class="fa fa-clock-o"></i><span>12.00 - 13.00</span>Radiation Oncology, John Franklin
+              </li>
+              <li><i class="fa fa-clock-o"></i><span>15.00 - 18.00</span>Emergency Department, John
+                Franklin
+              </li>
+              <li><i class="fa fa-clock-o"></i><span>19.00 - 20.00</span>Emergency Department, John
+                Franklin
+              </li>
+            </ul>
+          </dd>
+        </dl>
+      </div>
+    </section>
+    <!--/ timetable -->
+  </div>
+</main>
+<!--/ page content -->
